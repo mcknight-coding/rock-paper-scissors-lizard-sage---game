@@ -1,3 +1,4 @@
+<img width="800" height="733" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/b5393c49-de51-4bf3-81b7-99652a4e9641" />
 # Rock, Paper, Scissors, Lizard, Sage
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
@@ -12,7 +13,7 @@
 
 ## Demo
 
-![Gameplay screenshot](assets/images/play.png)
+<img width="800" height="733" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/76e5f01c-28a9-40fd-bf5b-70e3f788fe98" />
 
 ---
 
