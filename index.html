@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Lizard Sage</title>
+  <link rel="icon" href="assets/images/play.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Rock, Paper, Scissors, Lizard, Sage!</h1>
+  
+  <div id="scoreboard">
+    Wins: <span id="scoreWins">0</span> |
+    Losses: <span id="scoreLosses">0</span> |
+    Draws: <span id="scoreDraws">0</span>
+  </div>
+
+  <input
+    type="text"
+    id="myInput"
+    size="60"
+    placeholder="1-5  or  p, r, s, l, sg"
+    autocomplete="off"
+  >
+
+  <div class="button-row">
+    <button type="button" onclick="playGame()">Play</button>
+    <button type="button" onclick="showRules()">Rules</button>
+  </div>
+
+  <p id="output1"></p>
+
+  <img id="resultImg" src="assets/images/rules.png" alt="Game result" alt="Rules">
+
+  <br>
+
+  <a id="downloadLink" href="#" download="results.json" onclick="saveClicked()">
+    Download Results
+  </a>
+
+  <!-- Load JS files in dependency order -->
+  <script src="game/opponents.js"></script>
+  <script src="game/game.js"></script>
+  <script src="game/scores.js"></script>
+  <script src="game/ui.js"></script>
+
+</body>
+</html>

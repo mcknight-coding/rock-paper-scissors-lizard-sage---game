@@ -1,0 +1,154 @@
+/* style.css */
+/* Game-style UI for Rock, Paper, Scissors, Lizard, Sage */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, #1f2937 0%, #111 45%, #050505 100%);
+  color: #fff;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  margin: 0 auto 1rem;
+  max-width: 900px;
+  line-height: 1.1;
+  color: #fff;
+  text-shadow:
+    0 4px 0 #09233f,
+    0 0 14px rgba(0, 180, 255, .45);
+}
+
+p,
+.score,
+#score {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+#myInput {
+  display: block;
+  margin: 0 auto 1rem;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  width: min(560px, 92%);
+  border-radius: 12px;
+  border: 2px solid #3b82f6;
+  background: #151515;
+  color: #fff;
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,.05);
+}
+
+#myInput:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 18px rgba(56, 189, 248, .45);
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 900;
+  border: 3px solid #fff;
+  border-radius: 16px;
+  cursor: pointer;
+  background: linear-gradient(#ef4444, #b91c1c);
+  color: white;
+  box-shadow: 0 6px 0 #6b1111;
+  transition: transform 0.15s, box-shadow 0.15s, filter 0.15s;
+}
+
+button:hover {
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 #6b1111;
+}
+
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #6b1111;
+}
+
+#output1 {
+  font-size: clamp(1.3rem, 4vw, 2rem);
+  font-weight: 900;
+  min-height: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  color: #fff;
+  text-shadow:
+    0 3px 0 #001a33,
+    0 0 12px rgba(255,255,255,.35);
+}
+
+#resultImg {
+  display: block;
+  margin: 1rem auto;
+  width: min(680px, 96%);
+  max-width: 100%;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 14px 35px rgba(0,0,0,.55);
+}
+
+.result-banner {
+  display: block;
+  width: min(560px, 94%);
+  margin: 1rem auto;
+}
+
+#downloadLink {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #dbeafe;
+  text-decoration: none;
+  font-size: 1rem;
+  border-bottom: 2px solid #60a5fa;
+}
+
+#downloadLink:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.25rem .75rem;
+  }
+
+  .button-row {
+    gap: .75rem;
+  }
+
+  button {
+    width: min(220px, 100%);
+  }
+
+}
