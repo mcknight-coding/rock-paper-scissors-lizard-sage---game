@@ -8,12 +8,6 @@
 
 > A browser-based twist on the classic Rock Paper Scissors game — expanded to 5 moves, 5 unique AI opponents with distinct play styles, live score tracking, and full audio feedback.
 
----
-
-## Demo
-
-<img width="800" height="733" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/b5393c49-de51-4bf3-81b7-99652a4e9641" />
-
 
 ---
 
