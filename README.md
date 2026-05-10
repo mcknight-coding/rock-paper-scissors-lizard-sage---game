@@ -1,4 +1,3 @@
-<img width="800" height="733" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/b5393c49-de51-4bf3-81b7-99652a4e9641" />
 # Rock, Paper, Scissors, Lizard, Sage
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
@@ -13,7 +12,7 @@
 
 ## Demo
 
-<img width="1310" height="1200" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/b8719893-edb9-45cc-9b77-16467837514c" />
+<img width="800" height="733" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/b5393c49-de51-4bf3-81b7-99652a4e9641" />
 
 
 ---
