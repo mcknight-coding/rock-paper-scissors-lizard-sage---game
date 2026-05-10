@@ -13,7 +13,8 @@
 
 ## Demo
 
-<img width="800" height="733" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/76e5f01c-28a9-40fd-bf5b-70e3f788fe98" />
+<img width="1310" height="1200" alt="rpsls-screenshot" src="https://github.com/user-attachments/assets/b8719893-edb9-45cc-9b77-16467837514c" />
+
 
 ---
 
